@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "5a3c0691-82ea-4ef4-911b-78c2cef54e86",
+		"name": "Rimac",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "7649464"
+	},
+	"item": [
+		{
+			"name": "getPeople",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://r3tjnwa02b.execute-api.us-west-2.amazonaws.com/dev/swapi/getPeople"
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://r3tjnwa02b.execute-api.us-west-2.amazonaws.com/dev/swapi/getSpecies"
+			},
+			"response": []
+		},
+		{
+			"name": "getSkill",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "https://r3tjnwa02b.execute-api.us-west-2.amazonaws.com/dev/skill"
+			},
+			"response": []
+		},
+		{
+			"name": "createSkill",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Nodejs\",\r\n    \"description\":\"Nodejs Mid\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "https://r3tjnwa02b.execute-api.us-west-2.amazonaws.com/dev/skill "
+			},
+			"response": []
+		}
+	]
+}

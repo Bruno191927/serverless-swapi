@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "sls:dev": "sls offline --stage develop --region sa-east-1",
-    "build": "serverless deploy --verbose",
+    "deploy": "serverless deploy --verbose",
     "remove": "sls remove"
   },
   "engines": {

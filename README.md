@@ -65,7 +65,7 @@ Para instalar las dependencias del proyecto, sigue estos pasos:
 - [x] Respeto de las buenas prácticas de desarrollo
 
 ## Bonus
-- [x] Pruebas Unitarias
+- [] Pruebas Unitarias
 - [x] Uso de TypeScript
 - [x] Deploy sin errores
 - [x] Trabajar en capas y por dominio
